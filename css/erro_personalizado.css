@@ -1,0 +1,42 @@
+html {height:100%;}
+body {
+    background-color: #000;  
+	height: 100%;
+	margin: 0;
+}
+#conteudo_erro {
+    background: url(../images/banner-erro.jpg) top center no-repeat;
+    background-color: #242424;
+    height:100%;
+}
+#box_botoes {
+	height:35px;
+	width: 250px;
+	margin: 0px auto;
+	padding-top: 635px;
+}
+
+.bot_home{
+   	background: url(../images/home.jpg) top center no-repeat;
+	cursor:pointer;
+    width: 120px;
+    height: 25px;
+    float: left;	
+}
+.bot_noticias{
+   	background: url(../images/noticias.jpg) top center no-repeat;
+    cursor:pointer;
+    width: 120px;
+    height: 25px;
+	float: right;
+}
+.bot_home:hover, .bot_noticias:hover{background-position: 0 -25px;}
+.pag_erro2 {
+    background: url(../images/banner-erro.jpg) top center no-repeat;
+    background-color: #242424;
+    display: table;
+    height: 100%;
+    margin: 0;
+    min-height: 756px;
+    width: 100%;
+}
